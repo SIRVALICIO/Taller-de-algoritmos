@@ -14,10 +14,10 @@ for i in range(0,c):
             cont2 = a
     if a>cont1 and a<501:
             cont1=a
-    if a!=0 and a>0 and a<25:
+    if a!=0 and a>0 and a=<25:
             bultos+=1
             pesoTotal=pesoTotal+a
-    if a!=0 and a>25 and a<300:
+    if a!=0 and a>25 and a=<300:
             bultos+=1
             pesoTotal=pesoTotal+a
             valorTotal=valorTotal+(a*1500)
@@ -35,7 +35,7 @@ else:
  if pesoTotal <=1800:
     print("el numero total de bultos es:", bultos)
     print("El peso del bulto mas pesado es", cont1, "\nEl bulto menos pesado es: ", cont2)
-    print("El peso promedio de peso cada bbulto es", (pesoTotal / bultos))
+    print("El peso promedio de peso cada bulto es", (pesoTotal / bultos))
     print("El precio de el total de bultos en pesos colobiamnos es: ", valorTotal)
     print("el peso en dolares sera: ", (valorTotal * 3165))  # El dvalor del dolar el dia sabado
     print("el peso de los bultos es: ",pesoTotal)

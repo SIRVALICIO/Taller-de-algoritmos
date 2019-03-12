@@ -1,4 +1,4 @@
-print("Este algortimo solo recibria notas en un rango  de 0.0 a 5")
+122
 a= float(input("nota 1: "))
 b= float(input("nota 2: "))
 c= float(input("nota 3: "))
@@ -19,5 +19,5 @@ else:
   if nota<3 and nota>=2.1:
     print("reprobaste con una nota de: ", nota, " pero puedes habilitar")
   else:
-  	if nota>=0 and  nota<=2:
-         print("fuera de la universidad")
+    if nota>=0 and  nota<=2:
+        print("fuera de la universidad")

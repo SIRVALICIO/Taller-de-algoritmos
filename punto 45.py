@@ -1,4 +1,4 @@
-for i in range(0,7):
++for i in range(0,7):
     a=int(input("numero entre  1y7: "))
     if a<1 and a>7:
         print("numero no valido")

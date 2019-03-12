@@ -5,7 +5,7 @@ cont2=0
 for i in range(1,4):
     if i==1:
         a=float(input("Ingrese un numero: "))
-        cont=cont
+        cont=a
     if i==2:
       b=float(input("ingrese un numero"))
       cont1=b

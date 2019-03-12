@@ -1,6 +1,4 @@
 
-print("Bienvenido a este programa")
-
 a=True or False
 b=False or False
 c=True and True

@@ -1,5 +1,7 @@
 
-for i in range(0,11):
+for i in range(0,10):
+    if i==0:
+        print("cero")
     if i==1:
         print("uno")
     if i == 2:

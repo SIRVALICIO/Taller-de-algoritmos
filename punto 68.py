@@ -19,6 +19,9 @@ if n<m:
             contImpar+=1
         if n%8==0:
             cont8+=1
+else:
+    print("El segundo  valor debe ser mayor")
+
 print("La cantidad de pares fueron: ",contPar,"\nLa cantidad de impares fueron: ",contImpar,"\nLa cantidad de positivos: ",contPositivos,"\nLa cantida de negativos fueron: ",contNegativos,"\nLa cantidad de mutiplos de 8 son: ",cont8)
 
 
